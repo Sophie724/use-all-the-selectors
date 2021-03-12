@@ -1,29 +1,72 @@
 body{
   background-color: #fdf6e3;
 }
-header footer{
+header, footer{
   font-size: 1.5rem;
 }
-nav>ul {
+nav ul {
   font-family: sans-serif;
 }
 
-. logo {
+.logo{
   text-transform: uppercase;
 }
 
-#contents {
+.wrapper{
+  background-color: #eee8d5;
+}
+
+#contents{
   color: #93a1a1;
 }
 
-#favs {
+#favs{
   color: #93a1a1;
 }
 
-#facts {
-    color: #93a1a1;
+#facts{
+  color: #93a1a1;
 }
 
 #types{
-    color: #93a1a1;
+  color: #93a1a1;
+}
+
+7 8 9 10
+7?
+.wraaper div+.dn{
+  background-color: #b58900;
+}
+
+8?
+#facts .dfn+strong{
+  color: #fff;
+}
+
+
+.wrapper h2 ul li .rel {
+  background-color: #2694d8;
+}
+
+#contents:last-child{
+  background-color: #2694d8;
+}
+------------
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd){
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even){
+  background-color: #586e75;
+}
+.types li:nth-child(3rd){
+  background-color: #d04b16;
 }
