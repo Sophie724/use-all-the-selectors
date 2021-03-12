@@ -16,32 +16,30 @@ nav ul {
   background-color: #eee8d5;
 }
 
-#contents{
-  color: #93a1a1;
-}
-
-#favs{
-  color: #93a1a1;
-}
-
-#facts{
-  color: #93a1a1;
-}
-
-#types{
+#contents, #favs, #facts,#types{
   color: #93a1a1;
 }
 
 7 8 9 10
 7?
-.wraaper div+.dn{
+.wrapper>div>.dfn{
   background-color: #b58900;
 }
 
 8?
-#facts .dfn+strong{
+#facts .dfn p+strong{
   color: #fff;
 }
+
+9?
+.no-highlight::before{
+  background-color: #719e07;
+}
+#favs,
+
+10?
+
+
 
 
 .wrapper h2 ul li .rel {
