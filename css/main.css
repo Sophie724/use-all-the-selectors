@@ -27,10 +27,6 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper > div > .dfn {
-  background-color: #b58900;
-}
-
 .wrapper > .dfn {
   background-color: #b58900;
 }
@@ -43,7 +39,7 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-#content ul li:last-child {
+a[href^="http"] {
   background-color: #2694d8;
 }
 
